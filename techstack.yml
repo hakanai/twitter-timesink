@@ -1,0 +1,84 @@
+repo_name: hakanai/twitter-timesink
+report_id: 2620aa3bf2ef6270741bede9e52e0bee
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:36:40+00:00'
+requested_by: hakanai
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.4.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/hakanai/twitter-timesink/blob/main/.ruby-version
+  detection_source: Repo Metadata
+  last_updated_by: Trejkaz (pen name)
+  last_updated_on: 2018-05-25 02:05:36.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/twitter-timesink
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/hakanai/twitter-timesink/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Trejkaz (pen name)
+  last_updated_on: 2018-05-25 02:05:36.000000000 Z
+- name: Twitter API
+  description: Build bots that communicate smartly.
+  website_url: https://twitter.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2466/twitterdev_gear.png
+  detection_source_url: https://github.com/hakanai/twitter-timesink/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Trejkaz (pen name)
+  last_updated_on: 2018-05-25 02:05:36.000000000 Z
+- name: table_print
+  description: TablePrint turns objects into nicely formatted columns for easy reading
+  package_url: https://rubygems.org/table_print
+  version: 1.5.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19458/default_fd702bb5ab99b2b2c899a9d0905041623a8021f9.png
+  detection_source_url: https://github.com/hakanai/twitter-timesink/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Trejkaz (pen name)
+  last_updated_on: 2018-05-25 02:05:36.000000000 Z
+- name: twitter
+  description: A Ruby interface to the Twitter API
+  package_url: https://rubygems.org/twitter
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19017/default_4a7d337d343ba3aa0e0f5fbe745cfb34afef4187.png
+  detection_source_url: https://github.com/hakanai/twitter-timesink/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Trejkaz (pen name)
+  last_updated_on: 2018-05-25 02:05:36.000000000 Z
